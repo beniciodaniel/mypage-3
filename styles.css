@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url(); AM I GOING TO USE A BG ?*/
+    /* background-size: cover; */    
+    background-color: #000;
+    color: #fff;
+}
+
+
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.me-social {
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 !important; */
+}
+
+.about-pages-right {
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* position: fixed; */
+}
+
+.about-me {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-work {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-education {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about > div > div {
+    width: 80%;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.about-me{
+    background-color: pink;
+}
+
+.about-work{
+    background-color: aquamarine;
+}
+
+.about-education{
+    background-color: azure;
+}
+
+footer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: honeydew;
+}
+
+@media (min-width: 2100px) {
+    
+}
