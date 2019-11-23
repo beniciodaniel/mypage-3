@@ -7,7 +7,7 @@
             $('section > div').addClass('col-lg-3');
 
         } else {
-            
+
             $('section > div').removeClass('col-lg-3');
         }
     };
@@ -18,3 +18,6 @@
     window.addEventListener('resize', mediaSize, false);
 
 })(jQuery);
+
+
+
