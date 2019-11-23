@@ -21,7 +21,7 @@ header {
     flex-wrap: wrap;    
 }
 
-.about-title-left {
+.me-social {
     padding: 0;
     height: 100vh;
     display: flex;
@@ -39,9 +39,10 @@ img {
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
+    /* position: fixed; */
 }
 
-.about-pages-right .about-me {
+.about-me {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -49,7 +50,7 @@ img {
     align-items: center;
 }
 
-.about-pages-right .about-work {
+.about-work {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -57,29 +58,29 @@ img {
     align-items: center;
 }
 
-.about-pages-right .about-education {
-    /* height: 100vh; */
+.about-education {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.about-pages-right div > div {
+.about > div > div {
     width: 80%;
     line-height: 1.5rem;
     text-align: justify;
 }
 
-.about-pages-right .about-me:nth-child(1) {
+.about-me{
     background-color: pink;
 }
 
-.about-pages-right .about-work:nth-child(2) {
+.about-work{
     background-color: aquamarine;
 }
 
-.about-pages-right .about-education:nth-child(3) {
+.about-education{
     background-color: azure;
 }
 
