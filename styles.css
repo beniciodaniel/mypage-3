@@ -89,7 +89,7 @@ footer {
 
 @media (max-height: 415px) {
     html { 
-        font-size: 70%;
+        font-size: 75%;
         line-height: 1rem;
     }
 }
