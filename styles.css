@@ -87,6 +87,6 @@ footer {
     background-color: honeydew;
 }
 
-@media (max-height: 390px) {
-    html { font-size: 70%; }
+@media (max-height: 415px) {
+    html { font-size: 65%; }
 }
