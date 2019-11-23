@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url(); */
+    /* background-size: cover; */    
+    background-color: #000;
+    color: #fff;
+}
+
+
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.about-title-left {
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 !important; */
+}
+
+.about-pages-right {
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-pages-right .about-me {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-pages-right .about-work {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-pages-right .about-education {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-pages-right div > div {
+    width: 80%;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+.about-pages-right .about-me:nth-child(1) {
+    background-color: pink;
+}
+
+.about-pages-right .about-work:nth-child(2) {
+    background-color: aquamarine;
+}
+
+.about-pages-right .about-education:nth-child(3) {
+    background-color: azure;
+}
+
+footer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: honeydew;
+}
+
