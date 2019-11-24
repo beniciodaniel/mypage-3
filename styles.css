@@ -30,6 +30,7 @@ header {
     align-items: center;
     /* margin: 0 !important; */
 }
+
 .social-media {
     display: flex;
     justify-content: space-evenly;    
@@ -94,6 +95,10 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: honeydew;
+}
+
+footer > p {
+    text-align: center;
 }
 
 @media (max-height: 415px) {
