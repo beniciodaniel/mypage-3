@@ -25,9 +25,18 @@ header {
     padding: 0;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* margin: 0 !important; */
+}
+.social-media {
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.social-media > a {
+    color: #000;
 }
 
 img {
@@ -100,6 +109,11 @@ footer {
     justify-content: space-around;
     /* align-items: center; */
 }
+
+/* .about-child :first-child {
+    display: flex;
+    flex-direction: 
+} */
 
 /* h4 {
     text-align: center;
