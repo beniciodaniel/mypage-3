@@ -1,11 +1,10 @@
 // media query event handler
-var matched = window.matchMedia("(min-width: 2000px)").matches;
-if (matched) {
-    const minSize = window.matchMedia("(min-width: 2000px)");
-    minSize.addListener(WidthChange);
-    minSize.addListener(toggleDivArchitect);
-    WidthChange(minSize);
-    toggleDivArchitect(minSize);
+var matchedWidth = window.matchMedia("(min-width: 1900px)").matches;
+
+if (matchedWidth) {
+    const minSizeWidth = window.matchMedia("(min-width: 1900px)");
+    minSizeWidth.addListener(WidthChange);
+    WidthChange(minSizeWidth);
 }
 
 // media query change
@@ -23,12 +22,22 @@ function WidthChange(minSize) {
     }
 }
 
-function toggleDivArchitect(minSize) {
+// Defining event listener function
+function toggleHiddenClass() {
+    // Get width and height of the window excluding scrollbars
+    var w = document.documentElement.clientWidth;
+    var h = document.documentElement.clientHeight;
     var divArchitect = document.querySelector('.divArchitect');
-    if (minSize.matches) {
+
+    if (w > 1700 && h > 700) {
         divArchitect.removeAttribute("hidden");
     } else {
         divArchitect.setAttribute("hidden", "hidden");
     }
 }
 
+// Attaching the event listener function to window's resize event
+window.addEventListener("resize", toggleHiddenClass);
+
+// Calling the function for the first time
+toggleHiddenClass();

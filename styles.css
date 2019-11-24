@@ -140,6 +140,10 @@ footer > p {
         font-size: 80%;
         line-height: 1rem;
     }
+    img {
+        width: 200;
+        height: 200px;
+    }
 }
 
 .divArchitect {
@@ -148,11 +152,6 @@ footer > p {
     justify-content: space-around;
     /* align-items: center; */
 }
-
-/* .about-child :first-child {
-    display: flex;
-    flex-direction: 
-} */
 
 h4 {
     text-align: center;
