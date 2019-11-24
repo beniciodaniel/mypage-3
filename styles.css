@@ -34,8 +34,7 @@ img {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 50%;
-    /* position: fixed; */
+    border-radius: 50%;    
 }
 
 .about-me {
@@ -94,3 +93,14 @@ footer {
         line-height: 1rem;
     }
 }
+
+.divArchitect {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+/* h4 {
+    text-align: center;
+} */
