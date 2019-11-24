@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -13,8 +14,15 @@ header {
     /* background: url(); AM I GOING TO USE A BG ?*/
     /* background-size: cover; */    
     background-color: #000;
+    color: #fff;    
+}
+
+header > a {
     color: #fff;
-    
+}
+
+header > a:hover {
+    color: pink;
 }
 
 .about {
