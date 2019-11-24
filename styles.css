@@ -41,10 +41,20 @@ header {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 225px;
+    height: 225px;
+    
     object-fit: cover;
-    border-radius: 50%;    
+    border-radius: 50%;
+
+    filter: grayscale(0%);
+    margin-bottom: 1rem;
+
+    
+}
+img:hover {
+    /* border-radius: 0; */
+    filter: grayscale(100%);
 }
 
 .about-me {
