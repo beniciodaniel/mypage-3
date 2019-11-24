@@ -1,5 +1,6 @@
 // media query event handler
-if (window.matchMedia("(min-width: 2000px)")) {
+var matched = window.matchMedia("(min-width: 2000px)").matches;
+if (matched) {
     const minSize = window.matchMedia("(min-width: 2000px)");
     minSize.addListener(WidthChange);
     minSize.addListener(toggleDivArchitect);
