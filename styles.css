@@ -11,10 +11,13 @@ header {
     align-content: center;
     align-items: center;    
     justify-content: center;
-    /* background: url(); AM I GOING TO USE A BG ?*/
-    /* background-size: cover; */    
     background-color: #000;
-    color: #fff;    
+    color: #fff;
+}
+
+h1 {
+    font-size: 2rem;
+    /* text-transform: uppercase; */
 }
 
 header > a {
@@ -22,7 +25,8 @@ header > a {
 }
 
 header > a:hover {
-    color: pink;
+    color: #fff;
+    text-decoration: underline;
 }
 
 .about {
@@ -147,7 +151,10 @@ footer > p {
     .social-media > a:nth-child(2){
         margin-right: 2rem;
         margin-left: 2rem;
-}
+    }
+    footer {
+        font-size: 120%;
+    }
 }
 
 .divArchitect {
