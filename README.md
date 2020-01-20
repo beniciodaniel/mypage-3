@@ -1,2 +1,3 @@
-# mypage-3
-My short resume.
+# My Resume
+
+Simple resume in progress.
