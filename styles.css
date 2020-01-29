@@ -8,7 +8,7 @@ html, body {
 header {
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     align-items: center;    
     justify-content: center;
@@ -26,8 +26,14 @@ header > a {
 }
 
 header > a:hover {
+    text-decoration: none;
     color: #fff;
-    text-decoration: underline;
+}
+
+#resume:hover {
+    color: #fff;
+    border-bottom: 0.05rem solid;
+    margin-top: -2px;
 }
 
 .about {
@@ -173,6 +179,8 @@ i {
 }
 
 .down {
+    padding-bottom: 20px;
+    margin-left: 2rem;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
