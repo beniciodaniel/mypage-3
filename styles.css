@@ -37,7 +37,6 @@ header > a:hover {
 }
 
 #header-anchor:hover + #tick {
-    display: inline-block;
     opacity: 1;
 }
 
@@ -184,13 +183,6 @@ h4 {
     transition: opacity 0.5s ease-out;
     opacity: 0;
 
-    padding-bottom: 20px;
-    margin-left: 2rem;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-}
-
-.down {
     padding-bottom: 20px;
     margin-left: 2rem;
     transform: rotate(45deg);
