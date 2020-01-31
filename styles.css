@@ -36,6 +36,11 @@ header > a:hover {
     margin-top: -2px;
 }
 
+#header-anchor:hover + #tick {
+    display: inline-block;
+    opacity: 1;
+}
+
 .about {
     width: 100%;
     display: flex;
@@ -171,11 +176,18 @@ h4 {
     text-align: center;
 }
 
-i {
+#tick {
     border: solid white;
     border-width: 0 5px 5px 0;
-    display: inline-block;
     padding: 5px;
+
+    transition: opacity 0.5s ease-out;
+    opacity: 0;
+
+    padding-bottom: 20px;
+    margin-left: 2rem;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 .down {
